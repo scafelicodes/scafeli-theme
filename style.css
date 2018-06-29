@@ -1,0 +1,256 @@
+/*
+Theme Name: Scafeli Produtora Theme
+Theme URI: https://scafeli.com/
+Author: Gustavo Scafeli
+Author URI: https://scafeli.com/
+Description: Produtora audiovisual no Rio de Janeiro.
+Version: 1.0
+*/
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: .9s;
+ transition-property: opacity;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
+}
+
+
+header {
+	padding: 40px 0px;
+}
+
+
+.logo {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 0px;
+  letter-spacing: -1px;
+}
+
+.logo a {
+	color: #303030;
+	transition: all ease 0.3s;
+}
+
+.logo a:hover {
+	text-decoration: none;
+	color: #30303070;
+}
+
+
+.bg-dark {
+    background-color: #fff!important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(48, 48, 48);
+}
+
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(48, 48, 48, 0.75);
+}
+
+.menu {
+	margin-bottom: 20px; 
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+.menu li a {
+	color: #6d6d6d;
+	text-transform: uppercase;
+	padding: 0px 20px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+
+.social li {
+	list-style: none;
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.social li a {
+	color: #303030;
+	font-size: 18px;
+}
+
+
+.title-page {
+	text-transform: uppercase;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+
+.widgettitle {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+.blog-space {
+	margin-bottom: 40px;
+}
+
+.blog-space p {
+	font-size: 1.1rem;
+	color: #6d6d6d;
+}
+
+.credits {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+footer {
+	background: #303030;
+	padding: 40px;
+	margin-top: 40px;
+	color: #fff;
+}
+
+
+.widget {
+	list-style: none;
+	margin-bottom: 30px;
+}
