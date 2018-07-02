@@ -11,11 +11,18 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+
+
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css" />
 
     <title>Gustavo Scafeli - Photographer and Filmmaker</title>
+
+    <?php wp_head(); ?>
   </head>
   <body>
+
+
 
 
 <header>
@@ -32,7 +39,7 @@
     </ul>    
 
     <ul class="social">
-        <li><a href="https://www.instagram.com/scafeligustavo/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.instagram.com/gustavoscafeli/" target="_blank"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://www.facebook.com/gustavoscafeli/" target="_blank"><i class="fab fa-facebook"></i></a></li>
         <li><a href="https://www.gustavoscafeli.tumblr.com/" target="_blank"><i class="fab fa-tumblr"></i></a></li>
         <li><a href="https://www.500px.com/gustavoscafeli/" target="_blank"><i class="fab fa-youtube"></i></a></li>

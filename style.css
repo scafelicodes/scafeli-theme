@@ -8,6 +8,14 @@ Version: 1.0
 */
 
 
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600');
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {
@@ -145,18 +153,41 @@ a img.aligncenter {
  transform: translate3d(0, 0, 0);
 }
 
+.carousel-item img {
+	border-radius: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
 
 header {
 	padding: 40px 0px;
 }
 
 
+.content-area p {
+	color: #424242;
+    font-family: 'PT Serif', 'Georgia';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.excerpt p {
+	color: #424242;
+    font-family: 'PT Serif', 'Georgia';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
 .logo {
-  font-size: 20px;
+  font-size: 36px;
   margin-bottom: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 0px;
-  letter-spacing: -1px;
 }
 
 .logo a {
@@ -217,7 +248,7 @@ header {
 
 .title-page {
 	text-transform: uppercase;
-	font-size: 26px;
+	font-size: 40px;
 	margin-bottom: 30px;
 }
 
@@ -253,4 +284,106 @@ footer {
 .widget {
 	list-style: none;
 	margin-bottom: 30px;
+}
+
+
+.posts-home-area {
+	padding-top: 50px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.post-home img {
+	border-radius: 5px;
+}
+
+.post-home h4 a {
+	color: #212529;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 24px;
+	display: block;
+}
+
+.post-preview {
+	padding: 30px 0px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.post-preview img {
+	border-radius: 5px;
+}
+
+
+.post-preview .post-title a {
+	color: #212529;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.post-preview .post-title:hover {
+	color: #212529;
+}
+
+.post-preview:first-child {
+	padding-top: 0px;
+}
+
+.area-title {
+	text-transform: uppercase;
+}
+
+.cat, .meta-post {
+	text-transform: uppercase;
+	color: #6d6d6d;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.title-post {
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.head-post {
+	margin-bottom: 40px;
+}
+
+
+.about {
+	padding-bottom: 40px;
+}
+
+
+.about img {
+	padding-bottom: 20px;
+}
+
+
+.page-numbers {
+	padding: 10px 17px;
+	border: 1px solid;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.page-numbers .current {
+	color: #f90;
+}
+.singlepostimg {
+	padding-bottom: 30px;
 }
