@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt_BR">
+  
   <head>
 
     <!-- Required meta tags -->
@@ -27,25 +28,42 @@
 
 <header>
 
-  <div class="container text-center">
-    <h1 class="logo"><a href="<?php bloginfo('home') ?>">Gustavo Scafeli</a></h1>
-  
-    <ul class="menu">
-        <li><a href="<?php bloginfo('home') ?>">Início</a></li>
-        <li><a href="<?php bloginfo( 'url' ); ?>/portfolio">Portfólio</a></li>
-        <li><a href="<?php bloginfo( 'url' ); ?>/presets">Presets & luts</a></li>
-        <li><a href="<?php bloginfo( 'url' ); ?>/blog">Blog</a></li>
-        <li><a href="<?php bloginfo( 'url' ); ?>/contato">Contato</a></li>
-    </ul>    
 
-    <ul class="social">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand logo" href="<?php bloginfo('home') ?>">Gustavo Scafeli</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="<?php bloginfo('home') ?>">Início</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/portfolio">Portfólio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/presets">Presets & LUTs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/blog">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/contato">Contato</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <ul class="social">
         <li><a href="https://www.instagram.com/gustavoscafeli/" target="_blank"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://www.facebook.com/gustavoscafeli/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://www.gustavoscafeli.tumblr.com/" target="_blank"><i class="fab fa-tumblr"></i></a></li>
         <li><a href="https://www.500px.com/gustavoscafeli/" target="_blank"><i class="fab fa-youtube"></i></a></li>
     </ul>
+    </span>
+  </div>
+</nav>
+</div>
 
-    </div>
 
 </div>
 

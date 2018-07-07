@@ -5,14 +5,30 @@
 
 		<img class="rounded-circle" src="<?php bloginfo('template_url') ?>/gustavoscafeli.jpg" alt="Gustavo Scafeli">
 		<h3>Gustavo Scafeli</h3>
-		<p>Fotógrafo e Filmmaker</p>
+		<p>Lifestyle & Fashion Photographer</p><!-- 
+		<a href=""><i class="fab fa-instagram"></i> instagram</a>
+		<a href=""><i class="fab fa-facebook"></i> facebook</a>
+		<a href=""><i class="fab fa-spotify"></i> spotify</a> -->
 
 	</div>
 
 
 
-<iframe src="https://open.spotify.com/embed/user/12162415619/playlist/4iYL9uON7nUdf3nBhwO00J" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
+<!-- <?php $the_query = new WP_Query( 'posts_per_page=5' ); ?>
+<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+<a href="<?php the_permalink() ?>">
+<div class="latest">
+<?php the_post_thumbnail('singlelist'); ?>
+
+<h3><?php the_title(); ?></h3>
+</div>
+</a>
+
+<?php 
+endwhile;
+wp_reset_postdata();
+?> -->
 	
 
 

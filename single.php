@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
+
+<section class="top-pages">
+  <div class="container text-center">
+    <h1>Blog</h1>
+  </div>
+</section>
+
+
 <?php
   while (have_posts()) {
   the_post();

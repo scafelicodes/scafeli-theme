@@ -1,6 +1,17 @@
 <?php get_header(); ?>
 
-<div class="container">
+
+<section class="presentation">
+	<div class="container">
+		<h1>fashion <br> photographer</h1>
+
+		<p><i class="fas fa-map-marker-alt"></i> Rio de Janeiro, Brazil</p>
+	</div>
+</section>
+
+
+
+<!-- <div class="container">
 
 	<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
 	  <div class="carousel-inner">
@@ -27,12 +38,36 @@
 	  </a> 
 	</div>
 
-</div>
+</div> -->
+
+
+<section class="sec-light services">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-3">
+				<h3>ensaios</h3>
+				<a href="#"><i class="fas fa-angle-right"></i> ver valores</a>
+			</div>
+			<div class="col-md-3">
+				<h3>lookbook</h3>
+				<a href="<?php bloginfo( 'url' ); ?>/contato"><i class="fas fa-angle-right"></i> solicitar orçamento</a>
+			</div>
+			<div class="col-md-3">
+				<h3>publicidade</h3>
+				<a href="<?php bloginfo( 'url' ); ?>/contato"><i class="fas fa-angle-right"></i> solicitar orçamento</a>
+			</div>
+			<div class="col-md-3">
+				<h3>e-commerce</h3>
+				<a href="<?php bloginfo( 'url' ); ?>/contato"><i class="fas fa-angle-right"></i> solicitar orçamento</a>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 <div class="container posts-home-area">
 
-    <h1 class="area-title"> blog</h1>
+    <h1 class="area-title">últimos posts</h1>
 
                     <div class="row">
 

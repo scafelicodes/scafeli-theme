@@ -2,9 +2,17 @@
 
 <?php get_header(); ?>
 
+<section class="top-pages">
+  <div class="container text-center">
+    <h1><?php the_title() ?></h1>
+  </div>
+</section>
+
+
+
 <div class="container">
 
-<h2 class="title-page"><?php the_title() ?></h2>
+<!-- <h2 class="title-page"><?php the_title() ?></h2> -->
 
 	<div class="row">
 		<div class="col-md-8">

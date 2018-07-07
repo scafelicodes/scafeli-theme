@@ -5,11 +5,18 @@
       the_post();
     ?>
 
+
+    <section class="top-pages">
+  <div class="container text-center">
+    <h1><?php the_title() ?></h1>
+  </div>
+</section>
+
+
     <div class="container">
         <div class="row">
             <div class="col-xl-8 col-lg-8 pr-45 blog-space">
-
-                <h2 class="title-page"><?php the_title() ?></h2>
+                
                 <?php the_content(); ?>
 
             </div>
