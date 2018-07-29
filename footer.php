@@ -1,7 +1,6 @@
 	<footer>
-	    <div class="container text-center">
-	        <p class="credits">Gustavo Scafeli © 2018</p>
-			<p class="credits">Todos os direitos reservados</p>
+	    <div class="container text-center" style="border-top:1px solid #e1e1e1; padding-top: 40px;">
+	        <p class="credits">© Gustavo Scafeli 2018. Todos os direitos reservados</p>
 	    </div>
 	</footer>
 

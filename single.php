@@ -30,7 +30,7 @@
 
                 </div>
 
-                <div class="singlepostimg"><?php the_post_thumbnail('singlepost'); ?></div>
+                <!-- <div class="singlepostimg"><?php the_post_thumbnail('singlepost'); ?></div> -->
 
       <?php the_content(); ?>
 

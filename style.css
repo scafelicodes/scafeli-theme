@@ -8,8 +8,11 @@ Version: 1.0
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 
+header {
+	    border-bottom: 1px solid #e1e1e1;
+}
 
 dl, ol, ul {
     margin-top: 0;
@@ -17,7 +20,7 @@ dl, ol, ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* =WordPress Core
@@ -188,7 +191,7 @@ img {
 }
 
 .logo {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin-left: -15px;
 }
 
@@ -202,14 +205,9 @@ img {
     white-space: nowrap;
 }
 
-.logo a {
-	color: #303030;
-	transition: all ease 0.3s;
-}
 
-.logo a:hover {
-	text-decoration: none;
-	color: #30303070;
+.navbar-light .navbar-brand {
+	transition: all ease 0.3s;
 }
 
 
@@ -231,9 +229,7 @@ img {
     color: rgba(48, 48, 48, 0.75);
 }
 
-.nav-link {
-	text-transform: lowercase;
-}
+
 
 .menu {
 	margin-bottom: 20px; 
@@ -292,12 +288,6 @@ img {
 	letter-spacing: 1px;
 }
 
-footer {
-	background: #303030;
-	padding: 40px;
-	margin-top: 40px;
-	color: #fff;
-}
 
 
 .widget {
@@ -376,7 +366,7 @@ footer {
 }
 
 .head-post {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 
@@ -415,7 +405,7 @@ footer {
 }
 
 .presentation {
-	background: url(http://scafeli.com/wp-content/uploads/2018/07/coverscafeli.jpg) center center;
+	background: url(https://images.unsplash.com/photo-1481385694031-f2b14f8621d5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc767ffc79c539ee38a5a64d7d0c71b8&auto=format&fit=crop&w=1950&q=80) center center;
 	background-size: cover;
 	display:flex;
 	align-items:center;
@@ -423,19 +413,32 @@ footer {
 	color: #fff;
 }
 
+
 .top-pages {
-	background: url(http://scafeli.com/wp-content/uploads/2018/07/coverscafeli.jpg) center center;
+	background: #030303;
 	display:flex;
 	align-items:center;
-	height: 20vh;
+	height: 15vh;
 	margin-bottom: 30px;
 	color: #fff;
 }
 
 
+.navbar-light .navbar-text a {
+	color: #303030;
+}
 
 
 .presentation h1 {
-	text-transform: uppercase;
 	font-size: 70px;
+	margin-bottom: 10px;
+}
+
+.presentation p {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.marg-t-50 {
+	margin-top: 50px;
 }

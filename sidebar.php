@@ -5,7 +5,9 @@
 
 		<img class="rounded-circle" src="<?php bloginfo('template_url') ?>/gustavoscafeli.jpg" alt="Gustavo Scafeli">
 		<h3>Gustavo Scafeli</h3>
-		<p>Lifestyle & Fashion Photographer</p><!-- 
+		<p>Lifestyle & Fashion Photographer</p>
+		<a href="<?php bloginfo( 'url' ); ?>/contato" style="border:1px solid; display: inline-block; padding: 10px 20px; border-radius:4px ">Contato</a>
+		<!-- 
 		<a href=""><i class="fab fa-instagram"></i> instagram</a>
 		<a href=""><i class="fab fa-facebook"></i> facebook</a>
 		<a href=""><i class="fab fa-spotify"></i> spotify</a> -->

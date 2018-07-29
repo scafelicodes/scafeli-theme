@@ -37,18 +37,24 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="<?php bloginfo('home') ?>">Início</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/portfolio">Portfólio</a>
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/sobre">Sobre</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/presets">Presets & LUTs</a>
+        <a class="nav-link" target="_blank" href="https://bit.ly/2mptLfc">Filmes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/blog">Blog</a>
+        <a class="nav-link" target="_blank" href="https://www.instagram.com/gustavoscafeli">Fotos</a>
       </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/presets">presets</a>
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/blog">blog</a>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/contato">Contato</a>
       </li>
@@ -57,7 +63,7 @@
       <ul class="social">
         <li><a href="https://www.instagram.com/gustavoscafeli/" target="_blank"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://www.facebook.com/gustavoscafeli/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://www.500px.com/gustavoscafeli/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://bit.ly/2mptLfc" target="_blank"><i class="fab fa-youtube"></i></a></li>
     </ul>
     </span>
   </div>
