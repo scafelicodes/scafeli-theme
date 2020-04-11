@@ -9,64 +9,47 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 
 
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css" />
 
-    <title>Gustavo Scafeli - Photographer and Filmmaker</title>
+    <title>
+      <?php if(is_front_page() || is_home()){
+        echo get_bloginfo('name');
+        } else{
+            echo wp_title('');
+        }?>
+    </title>
 
     <?php wp_head(); ?>
   </head>
   <body>
 
-
-
-
 <header>
 
 
 <div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand logo" href="<?php bloginfo('home') ?>">Gustavo Scafeli</a>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand logo" href="<?php bloginfo('home') ?>"><img class="logo" src="<?php bloginfo('template_url') ?>/img/logo-dark.png" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo('home') ?>">Início</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/sobre">Sobre</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" target="_blank" href="https://bit.ly/2mptLfc">Filmes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" target="_blank" href="https://www.instagram.com/gustavoscafeli">Fotos</a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/presets">presets</a>
-      </li> -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/blog">blog</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/contato">Contato</a>
-      </li>
-    </ul>
-    <span class="navbar-text">
-      <ul class="social">
-        <li><a href="https://www.instagram.com/gustavoscafeli/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://www.facebook.com/gustavoscafeli/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://bit.ly/2mptLfc" target="_blank"><i class="fab fa-youtube"></i></a></li>
-    </ul>
-    </span>
-  </div>
+  <?php
+     wp_nav_menu([
+       'menu'            => 'top',
+       'theme_location'  => 'top',
+       'container'       => 'div',
+       'container_id'    => 'bs4navbar',
+       'container_class' => 'collapse navbar-collapse',
+       'menu_id'         => false,
+       'menu_class'      => 'navbar-nav ml-auto',
+       'depth'           => 2,
+       'fallback_cb'     => 'bs4navwalker::fallback',
+       'walker'          => new bs4navwalker()
+     ]);
+     ?>
 </nav>
 </div>
 

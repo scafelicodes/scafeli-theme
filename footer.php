@@ -1,6 +1,8 @@
-	<footer>
-	    <div class="container text-center" style="border-top:1px solid #e1e1e1; padding-top: 40px;">
-	        <p class="credits">© Gustavo Scafeli 2018. Todos os direitos reservados</p>
+	
+    <footer>
+	    <div class="container">
+            <p>Horário de atendimento: Segunda à sexta-feira, das 09:00 às 17:00.</p>
+	        <p>© 2014 - 2019 Scafeli - Feito com ❤ pra você!</p>
 	    </div>
 	</footer>
 

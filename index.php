@@ -1,104 +1,154 @@
 <?php get_header(); ?>
 
-
-<section class="presentation">
+<section class="hero">
 	<div class="container text-center">
-		<h1>Gustavo Scafeli</h1>
-		<p>lifestyle & fashion photographer</p>
+		
+		<div class="hero-content d-flex align-items-center">
+			<h1>we love hype</h1>
+			<p>Scafeli é uma agência de marketing digital e performance. Nosso trabalho conecta milhões de pessoas e marcas diariamente.</p>
+		</div>
+
 	</div>
 </section>
 
 
-<!-- <div class="container">
-
-	<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="<?php bloginfo('template_url') ?>/fredy.jpg" alt="Fredy Miller">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="<?php bloginfo('template_url') ?>/yasmin.jpg" alt="Ingrid Carvalho">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="<?php bloginfo('template_url') ?>/lemerendi.jpg" alt="Leticia Merendi">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="<?php bloginfo('template_url') ?>/naan.jpg" alt="NAAN">
-	    </div>
-	  </div>
-	   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a> 
-	</div>
-
-</div> -->
-
-
-<!-- <section class="sec-light services">
-	<div class="container text-center">
+<section class="d-flex align-items-center">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<h3>lifestyle</h3>
-				<a href="<?php bloginfo( 'url' ); ?>/orcamentos/orcamento_lifestyle_gustavo_scafeli.pdf"><i class="fas fa-angle-right"></i> ver valores</a>
+			<div class="col-md-6">
+				<h1>A transformative umgency pumrtner with creumtive spumark.</h1>
+				<p>Parecemos mais uma consultoria de gestão moderna que resolve grandes problemas para as empresas. Desde estratégia de marketing e experiência na Web até geração de leads - até transformação de cultura.</p>
+
+				<a href="#">Nosso trabalho</a>
 			</div>
-			<div class="col-md-3">
-				<h3>lookbook</h3>
-				<a href="<?php bloginfo( 'url' ); ?>/contato"><i class="fas fa-angle-right"></i> solicitar orçamento</a>
+
+			<div class="col-md-6">
+
+				<img src="https://s22474.pcdn.co/wp-content/uploads/2018/04/Mabbly-Round-Two-25_preview.jpeg" alt="">
 			</div>
-			<div class="col-md-3">
-				<h3>publicidade</h3>
-				<a href="<?php bloginfo( 'url' ); ?>/contato"><i class="fas fa-angle-right"></i> solicitar orçamento</a>
+
+		</div>
+	</div>
+</section>
+
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Atransformativeumgencypumrtnerwithcreumtivespumark.</h1>
+				<p>Parecemos mais uma consultoria de gestão moderna que resolve grandes problemas para as empresas. Desde estratégia de marketing e experiência na Web até geração de leads - até transformação de cultura.</p>
+
+				<a href="#">Nosso trabalho</a>
 			</div>
-			<div class="col-md-3">
-				<h3>e-commerce</h3>
-				<a href="<?php bloginfo( 'url' ); ?>/contato"><i class="fas fa-angle-right"></i> solicitar orçamento</a>
+
+			<div class="col-md-6">
+
+				<img src="https://s22474.pcdn.co/wp-content/uploads/2018/04/Mabbly-Round-Two-25_preview.jpeg" alt="">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Digital é apenas a plataforma</h1>
+				<p>Combinamos insights de dados com o design thinking para criar estratégias e experiências que transformam os negócios.</p>
+			</div>
+
+			<div class="col-md-6">
+
+				<img src="https://s22474.pcdn.co/wp-content/uploads/2018/04/Mabbly-Round-Two-25_preview.jpeg" alt="">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section>
+	<div class="container">
+		<h1>Os resultados que a sua empresa merece</h1>
+		<p>É perfeitamente possível escalar um negócio utilizando estratégias digitais e nós podemos ajudar</p>
+
+		<div class="row">
+			<div class="col-md-4">
+				<ul>
+					<li>Outsourced CMO</li>
+					<li>Auditoria e Diagnóstico Empresarial</li>
+					<li>Análise Competitiva de Mercado</li>
+					<li>Planejamento Estretégico</li>
+					<li>Otimização de Conversões</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<ul>
+					<li>Outsourced CMO</li>
+					<li>Auditoria e Diagnóstico Empresarial</li>
+					<li>Análise Competitiva de Mercado</li>
+					<li>Planejamento Estretégico</li>
+					<li>Otimização de Conversões</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<ul>
+					<li>Outsourced CMO</li>
+					<li>Auditoria e Diagnóstico Empresarial</li>
+					<li>Análise Competitiva de Mercado</li>
+					<li>Planejamento Estretégico</li>
+					<li>Otimização de Conversões</li>
+				</ul>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 
 
-<!-- <div class="container posts-home-area">
+<section>
+	<div class="container">
 
-    <h1 class="area-title">últimos posts</h1>
+		<div class="title-section">
+			<h3>Conectando comunidades através de conteúdo</h3>
+		</div>
 
-                    <div class="row">
-
-
-
-                        <?php
-            $wp_query = new WP_Query();
-            query_posts( array( 'post_type' => 'post', 'showposts' => 3, 'paged'=>$paged ));
-            if(have_posts()):
-            while ($wp_query -> have_posts()) : $wp_query -> the_post();
-        ?>
-
-            <div class="col-xl-4">
-                
-                <div class="post-home">
-
-                    <a href="<?php the_permalink();?>"><?php the_post_thumbnail('singlelist'); ?></a>
-            
-                    <h4>
-                        <a href="<?php the_permalink();?>"><?php the_title(); ?></a>
-                    </h4>
-                    <div class="excerpt"><?php the_excerpt(); ?></div>
-                </div>
-               
-            </div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="<?php bloginfo('template_url') ?>/img/projeto-med.png" alt="">
+			</div>
+			<div class="col-md-4">
+				<img src="<?php bloginfo('template_url') ?>/img/projeto-med.png" alt="">
+			</div>
+			<div class="col-md-4">
+				<img src="<?php bloginfo('template_url') ?>/img/projeto-med.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
 
 
-            <?php endwhile; endif; ?>
+<section>
+	<div class="container">
+		<div class="row">
 
-    </div>  
-    
-</div> -->
+			<div class="col-md-6">
+				<img src="<?php bloginfo('template_url') ?>/img/projeto-med.png" alt="">
+			</div>
 
+			<div class="col-md-6"></div>
+
+			<div class="col-md-6"></div>
+
+			<div class="col-md-6"></div>
+
+		</div>
+	</div>
+</section>
 
                 
 <?php get_footer(); ?>

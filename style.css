@@ -1,444 +1,90 @@
 /*
-Theme Name: Scafeli Produtora Theme
+Theme Name: Scafeli
 Theme URI: https://scafeli.com/
 Author: Gustavo Scafeli
 Author URI: https://scafeli.com/
-Description: Produtora audiovisual no Rio de Janeiro.
-Version: 1.0
+Description: Agência de Marketing Digital e Performance
+Version: 0.1
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
-
-header {
-	    border-bottom: 1px solid #e1e1e1;
-}
-
-dl, ol, ul {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* =WordPress Core
--------------------------------------------------------------- */
-.alignnone {
-    margin: 5px 20px 20px 0;
-}
-
-.aligncenter,
-div.aligncenter {
-    display: block;
-    margin: 5px auto 5px auto;
-}
-
-.alignright {
-    float:right;
-    margin: 5px 0 20px 20px;
-}
-
-.alignleft {
-    float: left;
-    margin: 5px 20px 20px 0;
-}
-
-a img.alignright {
-    float: right;
-    margin: 5px 0 20px 20px;
-}
-
-a img.alignnone {
-    margin: 5px 20px 20px 0;
-}
-
-a img.alignleft {
-    float: left;
-    margin: 5px 20px 20px 0;
-}
-
-a img.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.wp-caption {
-    background: #fff;
-    border: 1px solid #f0f0f0;
-    max-width: 96%; /* Image does not overflow the content area */
-    padding: 5px 3px 10px;
-    text-align: center;
-}
-
-.wp-caption.alignnone {
-    margin: 5px 20px 20px 0;
-}
-
-.wp-caption.alignleft {
-    margin: 5px 20px 20px 0;
-}
-
-.wp-caption.alignright {
-    margin: 5px 0 20px 20px;
-}
-
-.wp-caption img {
-    border: 0 none;
-    height: auto;
-    margin: 0;
-    max-width: 98.5%;
-    padding: 0;
-    width: auto;
-}
-
-.wp-caption p.wp-caption-text {
-    font-size: 11px;
-    line-height: 17px;
-    margin: 0;
-    padding: 0 4px 5px;
-}
-
-/* Text meant only for screen readers. */
-.screen-reader-text {
-	border: 0;
-	clip: rect(1px, 1px, 1px, 1px);
-	clip-path: inset(50%);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute !important;
-	width: 1px;
-	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
-}
-
-.screen-reader-text:focus {
-	background-color: #eee;
-	clip: auto !important;
-	clip-path: none;
-	color: #444;
-	display: block;
-	font-size: 1em;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000;
-	/* Above WP toolbar. */
-}
-
-
-.carousel-fade .carousel-item {
- opacity: 0;
- transition-duration: .9s;
- transition-property: opacity;
-}
-
-.carousel-fade  .carousel-item.active,
-.carousel-fade  .carousel-item-next.carousel-item-left,
-.carousel-fade  .carousel-item-prev.carousel-item-right {
-  opacity: 1;
-}
-
-.carousel-fade .active.carousel-item-left,
-.carousel-fade  .active.carousel-item-right {
- opacity: 0;
-}
-
-.carousel-fade  .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .active.carousel-item-left,
-.carousel-fade  .active.carousel-item-prev {
- transform: translateX(0);
- transform: translate3d(0, 0, 0);
-}
-
-.carousel-item img {
-	border-radius: 10px;
-}
+/*RESET*/
 
 img {
 	max-width: 100%;
 	height: auto;
 }
 
-.area-title {
-	padding-bottom: 20px;
+section {
+	min-height: 80vh;
 }
 
-
-.content-area p {
-	color: #424242;
-    font-family: 'PT Serif', 'Georgia';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 35px;
-}
-
-.excerpt p {
-	color: #424242;
-    font-family: 'PT Serif', 'Georgia';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-}
-
-.logo {
-  font-family: 'Quicksand', sans-serif;
-  margin-left: -15px;
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: 0;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 2.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-}
-
-
-.navbar-light .navbar-brand {
-	transition: all ease 0.3s;
-}
-
-
-.bg-dark {
-    background-color: #fff!important;
-}
-
-.bg-light {
-    background-color: #ffffff!important;
-}
-
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(48, 48, 48);
-}
-
-
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(48, 48, 48, 0.75);
-}
-
-
-
-.menu {
-	margin-bottom: 20px; 
-}
-
-.menu li {
-	list-style: none;
-	display: inline-block;
-}
-
-.menu li a {
-	color: #6d6d6d;
-	text-transform: uppercase;
-	padding: 0px 20px;
-	font-size: 13px;
-	letter-spacing: 1px;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 }
 
-
-.social li {
-	list-style: none;
-	display: inline-block;
-	padding: 0px 10px;
-}
-
-.social li a {
-	color: #303030;
-	font-size: 18px;
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 15px;
 }
 
 
-.title-page {
-	font-size: 40px;
-	margin-bottom: 30px;
+/*HEADER*/
+
+.logo {
+	width: 60px;
 }
 
-.widgettitle {
-	text-transform: uppercase;
-	font-size: 20px;
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600
 }
 
-
-.blog-space {
-	margin-bottom: 40px;
-}
-
-.blog-space p {
-	font-size: 1.1rem;
-	color: #6d6d6d;
-}
-
-.credits {
-	text-transform: uppercase;
-	font-size: 12px;
-	letter-spacing: 1px;
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+    	padding-right: 1rem;
+    	padding-left: 1rem;
+    }
 }
 
 
 
-.widget {
-	list-style: none;
-	margin-bottom: 30px;
+/*HERO*/
+
+.hero {
+	background: #df5849;
+	color: #fff;
 }
 
-
-.posts-home-area {
-	padding-top: 50px;
+.hero-content {
+	width: 800px;
 }
 
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-
-
-.post-home img {
-	border-radius: 5px;
-}
-
-.post-home h4 a {
-	color: #212529;
-	font-size: 20px;
-	text-transform: uppercase;
-	padding-top: 24px;
-	display: block;
-}
-
-.post-preview {
-	padding: 30px 0px;
-	border-bottom: 1px solid #e1e1e1;
-}
-
-.post-preview img {
-	border-radius: 5px;
-}
-
-
-.post-preview .post-title a {
-	color: #212529;
-	text-transform: uppercase;
+.hero-content p {
 	font-size: 24px;
-}
-
-.post-preview .post-title:hover {
-	color: #212529;
-}
-
-.post-preview:first-child {
-	padding-top: 0px;
-}
-
-
-.cat, .meta-post {
-	text-transform: uppercase;
-	color: #6d6d6d;
-	font-size: 14px;
-	font-weight: 400;
-}
-
-.title-post {
-	text-transform: uppercase;
-	font-size: 50px;
-}
-
-.head-post {
-	margin-bottom: 20px;
-}
-
-
-.about {
-	padding-bottom: 40px;
-}
-
-
-.about img {
-	padding-bottom: 20px;
-	max-width: 200px;
-}
-
-
-.page-numbers {
-	padding: 10px 17px;
-	border: 1px solid;
-	display: inline-block;
-	margin-top: 30px;
-}
-
-.page-numbers .current {
-	color: #f90;
-}
-.singlepostimg {
-	padding-bottom: 30px;
-}
-
-
-.sec-light {
-	background: #f1f1f1;
-}
-
-.services {
-	padding: 30px;
-}
-
-.presentation {
-	background: url(https://images.unsplash.com/photo-1481385694031-f2b14f8621d5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc767ffc79c539ee38a5a64d7d0c71b8&auto=format&fit=crop&w=1950&q=80) center center;
-	background-size: cover;
-	display:flex;
-	align-items:center;
-	height: 80vh;
+	line-height: 42px;
 	color: #fff;
 }
 
 
-.top-pages {
-	background: #030303;
-	display:flex;
-	align-items:center;
-	height: 15vh;
-	margin-bottom: 30px;
+.navbar {
+	padding: .5rem 0rem;
+}
+
+
+
+footer {
+	background: #303030;
+	padding: 40px 0px;
 	color: #fff;
-}
-
-
-.navbar-light .navbar-text a {
-	color: #303030;
-}
-
-
-.presentation h1 {
-	font-size: 70px;
-	margin-bottom: 10px;
-}
-
-.presentation p {
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-
-.marg-t-50 {
-	margin-top: 50px;
 }
