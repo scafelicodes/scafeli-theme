@@ -1,0 +1,90 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.alert {
+  margin-bottom: 0;
+  padding: 1rem;
+  border-radius: 0;
+}
+
+header {
+  background-color: #303030;
+}
+
+header .logo {
+  width: 60px;
+}
+
+section {
+  min-height: 50vh;
+  padding: 100px 0px;
+}
+
+.hero-home {
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80) rgba(48, 48, 48, 0.92);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.hero-home h1 {
+  color: #fff;
+}
+
+.hero-home p {
+  color: #979797;
+}
+
+.hero-home .btn-plus {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  background: #45d0c1;
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin-top: 50px;
+}
+
+.hero-home .partner {
+  color: #f8f8f8;
+  margin-top: 20px;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
+.plans-home {
+  background: #303030;
+}
+
+.plans-home h1 {
+  color: #fff;
+}
+
+.plans-home p {
+  color: #979797;
+}
+
+.plans-home .plan-home {
+  background: #fff;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.plans-home .plan-home li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #444;
+}
