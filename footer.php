@@ -2,7 +2,7 @@
     <footer>
 	    <div class="container">
             <p>Horário de atendimento: Segunda à sexta-feira, das 09:00 às 17:00.</p>
-	        <p>© 2014 - 2019 Scafeli - Feito com ❤ pra você!</p>
+	        <p>© 2014 - 2020 Scafeli - Feito com ❤ pra você!</p>
 	    </div>
 	</footer>
 

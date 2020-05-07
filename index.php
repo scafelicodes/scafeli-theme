@@ -1,17 +1,5 @@
 <?php get_header(); ?>
 
-<section class="hero">
-	<div class="container text-center">
-		
-		<div class="hero-content d-flex align-items-center">
-			<h1>we love hype</h1>
-			<p>Scafeli é uma agência de marketing digital e performance. Nosso trabalho conecta milhões de pessoas e marcas diariamente.</p>
-		</div>
-
-	</div>
-</section>
-
-
 <section class="d-flex align-items-center">
 	<div class="container">
 		<div class="row">
