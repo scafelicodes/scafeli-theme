@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/1a2737567a.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/aos.css" />
 
@@ -40,8 +41,8 @@
 <header>
 
 <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand logo" href="<?php bloginfo('home') ?>"><img class="logo" src="<?php bloginfo('template_url') ?>/img/logo-dark.png" alt=""></a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand logo" href="<?php bloginfo('home') ?>"><img class="logo" src="<?php bloginfo('template_url') ?>/logo-scafeli.svg" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
