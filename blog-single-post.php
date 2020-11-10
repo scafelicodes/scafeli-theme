@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php 
+
+/*
+ * Template Name: Blog Article
+ * Template Post Type: post
+ */
+
+get_header(); ?>
 
 
 <?php
@@ -7,8 +14,8 @@
 ?>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row justify-content-md-center">
+            <div class="col-md-9">
                 
                 <div class="head--post text-center">
 
@@ -24,9 +31,12 @@
 
                 </div>
 
-                <div class="content--post text-center">
+                <div class="content--post">
                   <?php the_content(); ?>
-                </div>      
+                </div>
+
+
+      
 
         </div>
       

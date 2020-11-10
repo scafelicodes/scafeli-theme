@@ -3,6 +3,17 @@
   
   <head>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122194403-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122194403-3');
+</script>
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,41 +41,29 @@
   <body>
 
 
-  <div class="text-center alert alert-warning alert-dismissible show" role="alert">
-  <strong>COVID-19:</strong> You should check in on some of those fields below. <a href="#">Saiba mais</a>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
 
+  <header>
+      <div class="container text-center">
+      <nav class="navbar navbar-expand-md navbar-light">
+     <a class="navbar-brand" href="<?php bloginfo('home') ?>"><img src="<?php bloginfo('template_url') ?>/img/logo-scafeli.svg" alt=""></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <?php
+     wp_nav_menu([
+       'menu'            => 'top',
+       'theme_location'  => 'top',
+       'container'       => 'div',
+       'container_id'    => 'bs4navbar',
+       'container_class' => 'collapse navbar-collapse',
+       'menu_id'         => false,
+       'menu_class'      => 'navbar-nav ml-auto',
+       'depth'           => 2,
+       'fallback_cb'     => 'bs4navwalker::fallback',
+       'walker'          => new bs4navwalker()
+     ]);
+     ?>
 
-<header>
-
-<div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand logo" href="<?php bloginfo('home') ?>"><img class="logo" src="<?php bloginfo('template_url') ?>/logo-scafeli.svg" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <?php
-      wp_nav_menu([
-        'menu'            => 'top',
-        'theme_location'  => 'top',
-        'container'       => 'div',
-        'container_id'    => 'bs4navbar',
-        'container_class' => 'collapse navbar-collapse',
-        'menu_id'         => false,
-        'menu_class'      => 'navbar-nav ml-auto',
-        'depth'           => 2,
-        'fallback_cb'     => 'bs4navwalker::fallback',
-        'walker'          => new bs4navwalker()
-      ]);
-    ?>
-
-  </nav>
-</div>
-
-</div>
-
-</header>
+    </nav>
+      </div>
+    </header>
