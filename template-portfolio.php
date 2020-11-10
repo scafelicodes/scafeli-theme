@@ -20,7 +20,7 @@
 
                 <?php
                     $wp_query = new WP_Query();
-                    query_posts( array( 'post_type' => 'post', 'showposts' => 4, 'paged'=>$paged, 'category_name' => 'portfolio' ));
+                    query_posts( array( 'post_type' => 'post', 'showposts' => 8, 'paged'=>$paged, 'category_name' => 'portfolio' ));
                     if(have_posts()):
                     while ($wp_query -> have_posts()) : $wp_query -> the_post();
                 ?>
