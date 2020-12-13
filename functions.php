@@ -8,7 +8,7 @@ register_nav_menu('top', 'Main Menu');
 
 
 add_theme_support('post-thumbnails');
-add_image_size( 'singlelist', 500, 650, true ); // default Post Thumbnail dimensions (cropped)
+add_image_size( 'singlelist', 600, 450, true ); // default Post Thumbnail dimensions (cropped)
 add_image_size( 'singlepost', 650, 500, true );
 
 function custom_excerpt_length( $length ) {

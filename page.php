@@ -5,14 +5,12 @@
       the_post();
     ?>
 
-    <div class="head--post text-center">
-      <h2><?php the_title() ?></h2>
-    </div>
- 
     <div class="container marg-t-50">
 
-        <div class="row justify-content-md-center">
+        <div class="row">
             <div class="col-md-9 blog-space">
+
+            <h2><?php the_title() ?></h2>
                 
                 <?php the_content(); ?>
 

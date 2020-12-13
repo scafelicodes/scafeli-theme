@@ -8,9 +8,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-9">
+
+            <div class="content--post">
                 
-                <div class="head--post text-center">
+                <div class="head--post">
 
                   <span class="cat"><?php
                     $category = get_the_category(); 
@@ -24,7 +26,7 @@
 
                 </div>
 
-                <div class="content--post text-center">
+                
                   <?php the_content(); ?>
                 </div>      
 

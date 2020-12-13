@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('../fonts/stylesheet.css');
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -8,13 +6,15 @@ body {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    font-style: normal;
-    font-family: 'monument_extendedbold';
+    font-weight: 700;
 }
 
 p {
-    margin-bottom: 2rem;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 15px;
 }
 
 img {
@@ -51,10 +51,6 @@ header {
     }
 }
 
-section {
-    padding: 100px 0px;
-}
-
 .btn-plus {
     text-decoration: none;
     color: #fff;
@@ -72,10 +68,11 @@ section {
 .head--post {
     padding: 20px 0px;
     .cat {
-        text-transform: uppercase;
-        font-size: 14px;
-        letter-spacing: 2px;
-        color: #999999;
+        color: #fff;
+        background: #45d0c1;
+        padding: 5px 15px 6px;
+        border-radius: 4px;
+        display: inline-block;
     }
 }
 
@@ -96,7 +93,6 @@ section {
          }
 
          h3 {
-            text-transform: uppercase;
          font-size: 16px !important;
          margin-top: 6px !important;
          }
@@ -113,9 +109,7 @@ section {
 
 .navbar-light .navbar-nav .nav-link {
     color: #999999;
-    text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: 1px;
     font-weight: normal;
 }
 
