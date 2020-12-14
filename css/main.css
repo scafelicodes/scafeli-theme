@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Oswald:wght@500&display=swap");
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -26,8 +27,22 @@ ul {
   padding: 0;
 }
 
-.lead {
-  font-weight: 400;
+.s-link {
+  color: #303030;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.s-link:hover {
+  color: #303030;
+  text-decoration: none;
+}
+
+.s-link i {
+  margin-left: 5px;
 }
 
 .alert {
@@ -37,7 +52,7 @@ ul {
 }
 
 header {
-  background-color: #fff;
+  background-color: #131313;
   padding: 20px 0px;
 }
 
@@ -46,7 +61,94 @@ header .navbar {
 }
 
 header .navbar-brand {
-  width: 260px;
+  width: 60px;
+}
+
+header .nav-link {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: #131313;
+  background: url("../img/ponto.png");
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  color: #fff;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 120px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-home {
+  padding: 50px 0px;
+}
+
+.about-home h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+
+.about-home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.socialbox-home {
+  padding: 50px 0;
+}
+
+.socialbox-home h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+.socialbox-home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.page-blog .title-page {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.page-blog .sp-list {
+  margin-bottom: 30px;
+  transition: all ease .3;
+}
+
+.page-blog .sp-list a:hover {
+  text-decoration: none;
+}
+
+.page-blog .sp-list a:hover h3 {
+  opacity: .8;
+}
+
+.page-blog .sp-list a h3 {
+  color: #303030;
+}
+
+.blog-home {
+  padding: 50px 0px;
 }
 
 .btn-plus {
@@ -67,12 +169,17 @@ header .navbar-brand {
   padding: 20px 0px;
 }
 
-.head--post .cat {
+.head--post .post-categories li {
+  margin-bottom: 10px;
+  display: inline-block;
+  list-style: none;
+}
+
+.head--post .post-categories li a {
   color: #fff;
   background: #45d0c1;
   padding: 5px 15px 6px;
   border-radius: 4px;
-  display: inline-block;
 }
 
 .title--portfolio {
@@ -98,8 +205,8 @@ header .navbar-brand {
   margin-top: 6px !important;
 }
 
-.content--post a {
-  color: #ff4a00;
+.content-page {
+  padding: 50px 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -159,10 +266,37 @@ header .navbar-brand {
 
 footer {
   padding: 50px 0px;
-  background: #eeeeee;
-  margin-top: 30px;
+  background: #131313;
+  color: #fff;
 }
 
-footer .credits {
-  color: #999999;
+footer p {
+  color: #fff;
+  opacity: .6;
+}
+
+footer hr {
+  background-color: #333;
+}
+
+footer a {
+  color: #fff;
+  opacity: .6;
+  transition: all ease .3s;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+footer ul li a {
+  font-size: 18px;
 }

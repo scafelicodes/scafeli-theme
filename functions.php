@@ -12,7 +12,7 @@ add_image_size( 'singlelist', 600, 450, true ); // default Post Thumbnail dimens
 add_image_size( 'singlepost', 650, 500, true );
 
 function custom_excerpt_length( $length ) {
-        return 13;
+        return 20;
     }
     add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 

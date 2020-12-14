@@ -1,68 +1,71 @@
 <?php get_header(); ?>
 
 
-<section>
+<section class="socialbox-home">
   <div class="container">
-    <p class="lead">Um estúdio criativo que atende as melhores marcas e pessoas do mundo desde 2014.</p>
+
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <p>Conteúdos inteligentes todos os dias!</p>
+      <h1>Socialbox</h1>
+      <p>Agora você pode contar com conteúdos incríveis todos os dias e estratégias de gente grande por um preço super acessível!</p>
+
+      <a class="cta-box s-link" href="<?php bloginfo( 'url' ); ?>/socialbox">Conheça o SocialBox <i class="fas fa-arrow-right"></i></a>
+
+    </div>
+
+    <div class="col-md-6">
+    <img src="<?php bloginfo('template_url') ?>/img/supreme-scafeli.png" alt="">
+    </div>
+
+    </div>
+
   </div>
 </section>
 
-<section>
+
+
+
+<section class="hero">
   <div class="container">
-    <div class="row">
+
+  <p class="lead">Não somos apenas uns rostinhos bonitos...</p>
+    <h1>FCKNG CRTVE STDIO</h1>
+    <p class="lead">Somos um estúdio criativo que atende as melhores marcas e pessoas do mundo desde 2014.</p>
+
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uRvOn00_EZo?autoplay=1&loop=1&mute=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <a class="s-link" href="<?php bloginfo( 'url' ); ?>/servicos">Conheça nossos planos <i class="fas fa-arrow-right"></i></a>
+
+  </div>
+</section>
+
+<section class="about-home">
+  <div class="container">
+    <div class="row align-items-center">
       <div class="col-md-6">
-        <p class="lead">Passamos da marca de 300 clientes atendidos e mais de 800 milhões de pessoas impactadas pelo nosso trabalho.</p>
 
-        <p class="lead">É apenas o começo.</p>
+      <p>Entregamos experiências, não anúncios.</p>
 
-        <a href="#">Conheça nossos planos</a>
+      <h2>Criamos parcerias para fornecer Conteúdos incríveis e Campanhas de Marketing com resultados reais.</h2>
+      
+      <p>Desde 2014, já são mais de 300 clientes atendidos e mais de 1 bilhão de pessoas impactadas pelo nosso trabalho.</p>
+
+        <p>É apenas o começo.</p>
+
+        <a class="s-link" href="<?php bloginfo( 'url' ); ?>/servicos">Conheça nossos serviços <i class="fas fa-arrow-right"></i></a>
+
+      </div>
+
+      <div class="col-md-6">
+      <img src="<?php bloginfo('template_url') ?>/img/supreme-scafeli.png" alt="">
       </div>
     </div>
   </div>
 </section>
 
-<div class="container">
-
-<div class="row">
-
-                <?php
-                    $wp_query = new WP_Query();
-                    query_posts( array( 'post_type' => 'post', 'showposts' => 4, 'paged'=>$paged ));
-                    if(have_posts()):
-                    while ($wp_query -> have_posts()) : $wp_query -> the_post();
-                ?>
-                  
-
-                  <div class="col-md-3">
-                    
-                    <div class="post--pre">
-
-                    <a href="<?php the_permalink();?>">
-
-                    <?php
-                    
-                    if ( has_post_thumbnail() ) {
-                        the_post_thumbnail('singlelist');
-                    }
-                    else {
-                        echo '<img src="https://via.placeholder.com/500x650.png" />';
-                    }
-                    ?>
-
-                      <h3 class="post-title">
-                        <?php the_title(); ?>
-                      </h3>
-
-                      </a>
-                    </div>  
-                    
-                </div>
-                <?php endwhile; endif; ?>
-                
-    
-
-                </div>
-</div>
 
                 
 <?php get_footer(); ?>

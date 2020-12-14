@@ -1,86 +1,106 @@
 <?php get_header(); ?>
 
-  <div class="container">
 
-    <div class="head--post text-center">
-      <h2><?php the_title() ?></h2>
-      <p>Aqui estão os meus pensamentos sobre arte, inspirações, equipamentos, etc.</p>
-    </div>
+<div class="container content-page">
+    
+    <div class="header-blog">
+        <h1 class="title-base"><?php single_cat_title(); ?>
+</h1>
+        <?php
+        // Display optional category description
+        if ( category_description() ) : ?>
+        <div class="archive-meta"><?php echo category_description(); ?></div>
+        <?php endif; ?>
 
-  </div>
+	</div>
 
 
-
-
-<div class="container">
-
-<div class="row">
-
-                <?php
-                    $wp_query = new WP_Query();
-                    query_posts( array( 
-                        'post_type' => 'post', 
-                        'showposts' => 6, 
-                        'paged'=>$paged, 
-                        'category__not_in' => array( 1 ) 
-                    ));
-                    if(have_posts()):
-                    while ($wp_query -> have_posts()) : $wp_query -> the_post();
-                ?>
-                  
-
-                  <div class="col-md-4">
-                    
-                    <div class="post--pre text-center">
-
-                    <a href="<?php the_permalink();?>">
-
-                    <?php
-                    
-                    if ( has_post_thumbnail() ) {
-                        the_post_thumbnail('singlepost');
-                    }
-                    else {
-                        echo '<img src="https://via.placeholder.com/500x650.png" />';
-                    }
-                    ?>
-
-                      <h3 class="post-title">
-                        <?php the_title(); ?>
-                      </h3>
-
-                      <span><?php the_excerpt(); ?></span>
-
-                      </a>
-                    </div>  
-                    
-                </div>
-                <?php endwhile; endif; ?>
-                
     
 
-                </div>
-<div class="text-center">
+
+        <div class="row">
+            <div class="col-md-8">
+            
+            <?php 
+    // Check if there are any posts to display
+    if ( have_posts() ) : ?>
+
+            <?php
+            while ( have_posts() ) : the_post(); ?>
+ 
+            
+
+                    <div class="single-post-sm">
+
+                    <div class="row">
+
+                    
+                    <div class="col-md-5">
+                   
+                        <?php the_post_thumbnail('singlelist'); ?>
+                    
+                    </div>
+
+                    <div class="col-md-7">
+                    <div class="desc-post">   
+                                <a href="<?php the_permalink();?>">
+                                    <h4><?php the_title(); ?></h4>
+                                </a>
+
+                                <?php the_excerpt(); ?>
+
+                                <a class="read-more-sp" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Leia mais <i class="fas fa-arrow-right"></i></a>
+
+
+                            
+                        </div>
+                        </div>
+
+                            
+                        </div>
+
+            </div>
+
+       
+                
+
+             
+<?php endwhile; // End Loop
+ 
+else: ?>
+<p>Desculpe, ainda não temos conteúdo nessa categoria.</p>
+<?php endif; ?>
+
+            </div>
+
+        <?php get_sidebar();?>
+
+        </div>
+
+        
+
+
+        
+        	
+
+</div>
+
+
+<div class="container content text-center">
 
 <?php
-    global $wp_query;
+global $wp_query;
 
-    $big = 999999999; // need an unlikely integer
+$big = 999999999; // need an unlikely integer
 
-    echo paginate_links( array(
-        'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-        'format' => '?paged=%#%',
-        'current' => max( 1, get_query_var('paged') ),
-        'total' => $wp_query->max_num_pages
-    ) );
+echo paginate_links( array(
+    'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+    'format' => '?paged=%#%',
+    'current' => max( 1, get_query_var('paged') ),
+    'total' => $wp_query->max_num_pages
+) );
 ?>
 
 </div>
-
-</div>
-
-</div>
-
-
 
 <?php get_footer(); ?>

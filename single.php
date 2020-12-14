@@ -6,7 +6,7 @@
   the_post();
 ?>
 
-    <div class="container">
+    <div class="container content-page">
         <div class="row">
             <div class="col-md-9">
 
@@ -14,14 +14,11 @@
                 
                 <div class="head--post">
 
-                  <span class="cat"><?php
-                    $category = get_the_category(); 
-                    echo $category[0]->cat_name;
-                    ?></span>
+                <?php the_category(); ?>
 
                     <h2 class="title-post"><?php the_title() ?></h2>
 
-                    <span class="meta-single"><?php the_time('j \d\e F \d\e Y') ?></span>
+                    <p>por <?php the_author(); ?> <i class="fas fa-check-circle"></i></p>
 
 
                 </div>
@@ -31,6 +28,8 @@
                 </div>      
 
         </div>
+
+        <?php get_sidebar(); ?>
       
 
         </div>

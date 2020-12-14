@@ -5,7 +5,7 @@
       the_post();
     ?>
 
-    <div class="container marg-t-50">
+    <div class="container content-page">
 
         <div class="row">
             <div class="col-md-9 blog-space">
@@ -15,6 +15,8 @@
                 <?php the_content(); ?>
 
             </div>
+            
+            <?php get_sidebar(); ?>
             
         </div>
         
