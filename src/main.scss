@@ -29,15 +29,20 @@ ul {
 }
 
 .s-link {
-    color: #303030;
+    background-color: #45d0c1;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
     margin-bottom: 20px;
     line-height: 30px;
+    transition: all ease .3s;
 
     &:hover {
-        color: #303030;
+        color: #fff;
+        background-color: #40bbae;
         text-decoration: none;
     }
 
@@ -74,9 +79,6 @@ header {
 
 .hero {
     background-color: #131313;
-    background: url('../img/ponto.png');
-    background-position: 0 0 !important;
-    background-repeat: repeat !important;
     color: #fff;
     padding: 50px 0px;
     text-align: center;
@@ -86,12 +88,21 @@ header {
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-top: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     p {
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+        color: #fff;
+    }
+
+    iframe {
+        margin-top: 30px;
+    }
+    
+    .s-link {
+        margin-top: 30px;
     }
 }
 
@@ -327,5 +338,44 @@ footer {
                 font-size: 18px;
             }
         }
+    }
+}
+
+@media (max-width: 992px)
+{
+    .socialbox-home {
+        padding: 50px 0;
+        text-align: center;
+    
+        h1 {
+            font-size: 60px;
+            text-transform: uppercase;
+            margin-top: -10px;
+        }
+    
+    }
+
+    .hero {
+        .embed-responsive {
+            display: none;
+        }
+    }
+
+
+    .about-home {
+        text-align: center;
+    }
+
+
+    footer {
+        text-align: center !important;
+    }
+}
+
+
+@media (max-width: 768px)
+{
+    .content-page {
+        padding: 20px 0px;
     }
 }

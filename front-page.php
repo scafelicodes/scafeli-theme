@@ -34,7 +34,7 @@
     <p class="lead">Somos um estúdio criativo que atende as melhores marcas e pessoas do mundo desde 2014.</p>
 
     <div class="embed-responsive embed-responsive-16by9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/uRvOn00_EZo?autoplay=1&loop=1&mute=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jakpo7tj7Qw?autoplay=1&loop=1&mute=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <a class="s-link" href="<?php bloginfo( 'url' ); ?>/servicos">Conheça nossos planos <i class="fas fa-arrow-right"></i></a>
@@ -45,6 +45,12 @@
 <section class="about-home">
   <div class="container">
     <div class="row align-items-center">
+
+    <div class="col-md-6">
+      <img src="<?php bloginfo('template_url') ?>/img/supreme-scafeli.png" alt="">
+      </div>
+
+      
       <div class="col-md-6">
 
       <p>Entregamos experiências, não anúncios.</p>
@@ -59,9 +65,7 @@
 
       </div>
 
-      <div class="col-md-6">
-      <img src="<?php bloginfo('template_url') ?>/img/supreme-scafeli.png" alt="">
-      </div>
+      
     </div>
   </div>
 </section>
