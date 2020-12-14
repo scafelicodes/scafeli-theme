@@ -50,8 +50,10 @@
       <img src="<?php bloginfo('template_url') ?>/img/supreme-scafeli.png" alt="">
       </div>
 
-      
+
       <div class="col-md-6">
+
+      <div>
 
       <p>Entregamos experiências, não anúncios.</p>
 
@@ -62,6 +64,8 @@
         <p>É apenas o começo.</p>
 
         <a class="s-link" href="<?php bloginfo( 'url' ); ?>/servicos">Conheça nossos serviços <i class="fas fa-arrow-right"></i></a>
+        </div>
+
 
       </div>
 

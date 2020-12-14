@@ -3,7 +3,9 @@
 <?php get_header(); ?>
 
 
-<div class="container content-page page-blog">
+<div class="container page-blog">
+
+<div class="content-page">
 
   <h1 class="title-page"><?php the_title() ?></h1>
 
@@ -91,6 +93,8 @@
   </div>
 
 
+
+</div>
 
 </div>
 

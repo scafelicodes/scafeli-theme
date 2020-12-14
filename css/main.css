@@ -103,6 +103,10 @@ header .nav-link {
   margin-top: 30px;
 }
 
+.single-post .content-page {
+  padding: 30px 0;
+}
+
 .about-home {
   padding: 50px 0px;
 }
