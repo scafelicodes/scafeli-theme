@@ -10,7 +10,7 @@
         <div class="content-page">
 
         <div class="row">
-            <div class="col-md-9 blog-space">
+            <div class="col-md-8 blog-space">
 
             <h2><?php the_title() ?></h2>
                 

@@ -2,10 +2,11 @@
 	    <div class="container">
 	        <div class="row">
                 <div class="col-md-6">
-                    <h1>Vamos começar?</h1>
+                    <h1>Vamos conversar?</h1>
+                    <p>Produtora Audiovisual × Rio de Janeiro, São Paulo e Curitiba</p>
                 </div>
                 <div class="col-md-6 text-right">
-                    <a href="#">Conheça nossos serviços</a>
+                    <a href="https://wa.me/5521967572277" class="s-link">Solicite um orçamento <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -13,21 +14,13 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    
-                        <a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviços</a>
-                    
-
-                    <p>© 2020 Scafeli. Todos os direitos reservados.</p>
+                    <p>© 2021 Scafeli. Todos os direitos reservados.</p>
                 </div>
                 <div class="col-md-6 text-right">
-                    <a href="#">+55 21 96410-5305</a>
                     <ul>
-                        <li><a href="https://instagram.com/scafeliestudio"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://instagram.com/scafeliestudio"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="https://instagram.com/scafeliestudio"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="https://instagram.com/scafeliestudio"><i class="fab fa-behance"></i></a></li>
-                        <li><a href="https://instagram.com/scafeliestudio"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="mailto:contato@scafeli.com.br"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="https://instagram.com/gustavoscafeli"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC3qxlRY4Z9WbF_4QGK5CX-A"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://wa.me/5521967572277"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
             </div>

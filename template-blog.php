@@ -11,13 +11,13 @@
 
   <div class="row">
 
-    <div class="col-md-9">
+    <div class="col-md-8">
 
       <?php
       $wp_query = new WP_Query();
       query_posts(array(
         'post_type' => 'post',
-        'showposts' => 3,
+        'showposts' => 6,
         'paged' => $paged
       ));
       if (have_posts()) :

@@ -29,37 +29,44 @@
             while ( have_posts() ) : the_post(); ?>
  
             
+ <div class="sp-list">
+            <a href="<?php the_permalink(); ?>">
 
-                    <div class="single-post-sm">
-
-                    <div class="row">
-
-                    
-                    <div class="col-md-5">
-                   
-                        <?php the_post_thumbnail('singlelist'); ?>
-                    
-                    </div>
-
-                    <div class="col-md-7">
-                    <div class="desc-post">   
-                                <a href="<?php the_permalink();?>">
-                                    <h4><?php the_title(); ?></h4>
-                                </a>
-
-                                <?php the_excerpt(); ?>
-
-                                <a class="read-more-sp" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Leia mais <i class="fas fa-arrow-right"></i></a>
+              <div class="row align-items-center">
 
 
-                            
-                        </div>
-                        </div>
 
-                            
-                        </div>
 
-            </div>
+
+                <div class="col-md-5">
+
+                  <?php the_post_thumbnail('singlelist'); ?>
+
+                </div>
+
+                <div class="col-md-7">
+                  <div class="desc-post">
+
+                    <h3><?php the_title(); ?></h3>
+
+
+                    <?php the_excerpt(); ?>
+
+
+
+
+
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+
+
+          </div>
 
        
                 
