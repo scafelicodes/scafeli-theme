@@ -1,11 +1,12 @@
 <?php get_header(); ?>
 
 
-<div class="container content-page">
+<div class="container">
+
+<div class="content-page">
     
     <div class="header-blog">
-        <h1 class="title-base"><?php single_cat_title(); ?>
-</h1>
+        <h1 class="title-base"><?php single_cat_title(); ?></h1>
         <?php
         // Display optional category description
         if ( category_description() ) : ?>
@@ -65,7 +66,7 @@
               </div>
 
 
-
+</a>
           </div>
 
        
@@ -87,7 +88,7 @@ else: ?>
         
 
 
-        
+        </div>
         	
 
 </div>

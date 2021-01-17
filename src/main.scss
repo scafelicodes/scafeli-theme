@@ -134,6 +134,7 @@ header {
 
 .about-home {
     padding: 50px 0px;
+    overflow: hidden;
 
     h2 {
         text-transform: uppercase;
@@ -154,8 +155,14 @@ header {
 
 
 
-
+.title-page-s {
+    margin-bottom: 20px;
+}
 // PAGES
+
+.title-base {
+    margin-bottom: 20px;
+}
 
 .page-blog {
     .title-page {
@@ -173,6 +180,7 @@ header {
 
     img {
         border-radius: 4px;
+        
     }
 
     a {
@@ -287,7 +295,8 @@ header {
 }
 
 .content-page {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -374,11 +383,24 @@ footer {
         }
     }
 
+    .right {
+        text-align: right;
+    }
+
     ul {
+
+        float: right;
+
+        
+        
         li {
             list-style: none;
             display: inline-block;
             margin-left: 20px;
+
+            &:first-child {
+                margin-left: 0;
+            }
 
             a {
                 font-size: 18px;
@@ -387,6 +409,10 @@ footer {
     }
 }
 
+
+.widget {
+    margin-bottom: 40px;
+}
 
 // SOCIALBOX PAGE
 
@@ -415,7 +441,16 @@ footer {
             text-transform: uppercase;
             margin-top: -10px;
         }
-    
+
+        .text-right {
+            text-align: center !important;
+        }    
+    }
+
+    .sp-list {
+        img {
+            margin-bottom: 15px;
+        }
     }
 
     .hero {
@@ -445,6 +480,14 @@ footer {
 
     footer {
         text-align: center !important;
+
+        .right {
+            text-align: center;
+        }
+
+        ul {
+            float: inherit;
+        }
     }
 }
 

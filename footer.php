@@ -3,10 +3,10 @@
 	        <div class="row">
                 <div class="col-md-6">
                     <h1>Vamos conversar?</h1>
-                    <p>Produtora Audiovisual × Rio de Janeiro, São Paulo e Curitiba</p>
+                    <p>Rio de Janeiro × São Paulo × Curitiba</p>
                 </div>
-                <div class="col-md-6 text-right">
-                    <a href="https://wa.me/5521967572277" class="s-link">Solicite um orçamento <i class="fas fa-arrow-right"></i></a>
+                <div class="col-md-6 right">
+                    <a href="https://wa.me/5521964105305" class="s-link" target="_blank">Conheça nossos planos <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -16,11 +16,11 @@
                 <div class="col-md-6">
                     <p>© 2021 Scafeli. Todos os direitos reservados.</p>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6">
                     <ul>
-                        <li><a href="https://instagram.com/gustavoscafeli"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC3qxlRY4Z9WbF_4QGK5CX-A"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="https://wa.me/5521967572277"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://instagram.com/scafelibrasil" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC3qxlRY4Z9WbF_4QGK5CX-A" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://wa.me/5521964105305" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
             </div>

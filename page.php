@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-8 blog-space">
 
-            <h2><?php the_title() ?></h2>
+            <h1 class="title-page-s"><?php the_title() ?></h1>
                 
                 <?php the_content(); ?>
 
