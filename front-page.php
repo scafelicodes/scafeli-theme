@@ -6,8 +6,8 @@
 <section class="hero">
   <div class="container">
 
-    <h1 data-aos="fade-down">we are creators</h1>
-    <p class="lead" data-aos="fade-up">A Scafeli é uma Produtora de Conteúdos Digitais</p>
+    <h1 data-aos="fade">we are creators</h1>
+    <!-- <p class="lead" data-aos="fade-up">A Scafeli é uma Agência de Publcidade em Itaboraí, RJ</p> -->
 
     <div class="embed-responsive embed-responsive-16by9" data-aos="fade">
     <iframe width="1920" height="1080" src="https://www.youtube.com/embed/hpHnxk4lv7g?autoplay=1&loop=1&mute=1&controls=0" allowfullscreen></iframe>

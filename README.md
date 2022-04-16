@@ -1,1 +1,0 @@
-# Scafeli - Wordpress Theme
