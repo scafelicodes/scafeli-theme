@@ -39,3 +39,8 @@ add_action( 'widgets_init', 'widgets_novos_widgets_init' );
 
 
 
+function scafeli_theme_support() {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'scafeli_theme_support');
